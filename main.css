@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    text-align: center;
+    font-size: 1.2rem;
+    background-image: url(https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60)
+  }
+
+  .logo {
+      height: 50px;
+  }
+  
+  .counts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #999;
+  }
+  
+  form {
+    background-color: #aaa;
+  }
+  
+  .start {
+    background-color: #ccc;
+  }
+  
+  header {
+    background-color: #ddd;
+  }
