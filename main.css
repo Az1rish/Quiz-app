@@ -3,7 +3,7 @@
   }
   
   body {
-    text-align: center;
+    font-family: Ubuntu, sans-serif;
     font-size: 1.2rem;
     background-image: url(https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60)
   }
@@ -13,20 +13,61 @@
   }
   
   .counts {
-    display: flex;
+    display: none;
     flex-direction: row;
     justify-content: space-around;
     background-color: #999;
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
   }
   
-  form {
+  form, .correctAnswer {
     background-color: #aaa;
   }
   
   .start {
     background-color: #ccc;
+    text-align: center;
   }
   
   header {
     background-color: #ddd;
+    text-align: center;
+  }
+
+  .questionForm {
+      display: none;
+  }
+
+  input[type=submit] {
+      background-color: #4caf50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      float: right;
+  }
+
+  input[type=submit]:hover {
+      background-color: #45a049;
+  }
+
+  .radio {
+    text-align: left;
+  }
+
+  form p {
+      font-weight: bold;
+      text-align: center;
+  }
+
+  .correctAnswer {
+      text-align: center;
+  }
+
+  .start, .correctAnswer, .questions {
+      margin-top: 150px;
   }

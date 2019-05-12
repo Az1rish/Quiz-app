@@ -4,17 +4,17 @@ const QUESTIONS = [
         answers: [
             "A string that is the reverse of the input array",
             "A new array that is the reverse of the input array",
-            "The same array with all of its items in the reverse order",
+            "The same array with all of its elements in the reverse order",
             "A boolean"
         ],
-        correct: "The same array with all of its items in the reverse order",
+        correct: "The same array with all of its elements in the reverse order",
         definition: "The reverse() method reverses an array in place. The first array element becomes the last, and the last array element becomes the first."
     },
     {
         question:"What does push() return?",
         answers: [
-            "An array with one more item than it had before",
-            "A string of the item that was added to the array",
+            "An array with one more element than it had before",
+            "A string of the element that was added to the array",
             "The new length of the array",
             "Two new arrays"
         ],
@@ -33,7 +33,7 @@ const QUESTIONS = [
         definition: "The unshift() method adds one or more elements to the beginning of an array and returns the new length of the array."
     },
     {
-        question:"What method would you use if you had an array of numbers and you wanted a new array of each of those numbers times 3?<br>Example: <code>arr = [1,2,3,4]<br>newArr = [2,4,6,8]</code>",
+        question:"What method would you use if you had an array of numbers and you wanted a new array of each of those numbers times 3?<br>Example: <code>arr = [1,2,3,4]<br>newArr = [3,6,9,12]</code>",
         answers: [
             "forEach()",
             "every()",
