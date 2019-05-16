@@ -8,7 +8,7 @@ function handleStartButton() {
         $('.start').remove();
         $('.questionForm').css('display','block');
         $('.questionNumber').text(1);
-        $('.counts').css('display','flex');
+        $('.counts').css({"display": "inline-block", "background-color": '#528ff2'});
     });
 }
 
