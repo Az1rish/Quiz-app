@@ -103,5 +103,11 @@
   }
 
   code {
+      display: block;
       text-align: left;
+      background-color: #aaa;
+      color:#800000;
+      padding: 15px;
+      margin: 20px;
+      border-radius: 5px;
   }

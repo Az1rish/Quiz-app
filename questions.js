@@ -66,7 +66,7 @@ const QUESTIONS = [
         definition:"The slice() method returns a shallow copy of a portion of an array into a new array object selected from begin to end (end not included). The original array will not be modified."
     },
     {
-        question:"<code>let arr1 = [19,65,35,6,4,78]<br>let output = arr1.find(function(element) {<br>   return element < 30;<br>});<br>console.log(output);</code><br>What is the output for this code snippet?",
+        question:"<code>let arr1 = [19,65,35,6,4,78]<br>let output = arr1.find(function(element){<br> &nbsp return element < 30;<br>});<br>console.log(output);</code><br>What is the output for this code snippet?",
         answers: [
             "3",
             "19",
