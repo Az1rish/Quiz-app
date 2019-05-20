@@ -28,7 +28,7 @@ function formQuestion() {
              ${QUESTIONS[questionNumber].answers[3]}</label><br>
             <input type="submit" role="button" class="submit-button" value="Submit Answer">
         </form>
-    </div>`
+    </div>`;
     
     return format;
 

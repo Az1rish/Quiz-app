@@ -28,6 +28,7 @@
     font-family: Oswald, sans-serif;
     font-weight: bold;
     font-size: 1.1rem;
+    border-radius: 0 0 10px 10px;
   }
 
   ul {
@@ -36,6 +37,7 @@
   
   .start {
     text-align: center;
+    border-radius: 10px;
   }
 
   h2, .questions {
@@ -43,6 +45,7 @@
     color: black;
     display: inline-block;
     padding: 0;
+    border-radius: 10px;
   }
   
   header {
@@ -52,6 +55,7 @@
 
   .questionForm {
       display: none;
+      border-radius: 10px;
   }
 
   input:hover {
@@ -72,7 +76,7 @@
   }
 
   .start, .correctAnswer, .questions {
-      background-color:#a6c4f4;
+      /*background-color:#a6c4f4;*/
       color: black;
       padding: 15px;
   }
@@ -97,8 +101,7 @@
 
   .questionBox {
       background-color:#a6c4f4;
-      border-radius: 5px;
-
+      border-radius: 10px;
   }
 
   code {
@@ -140,6 +143,11 @@
     }
 
     .questionForm {
-        margin: 0 auto;
+        text-align: center;
+    }
+
+    .questions {
+        display: inline-block;
+        text-align: left;
     }
   }
