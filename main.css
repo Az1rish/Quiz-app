@@ -21,9 +21,6 @@
     display: none;
     flex-direction: row;
     justify-content: space-around;
- /* position: fixed;
-    bottom: 20px;
-    left: 0; */
     width: 100%;
     background-color:#81adf4;
     color: black;
@@ -35,10 +32,6 @@
 
   ul {
     list-style-type: none;
-  }
-  
-  form, .correctAnswer {
-    
   }
   
   .start {
@@ -81,6 +74,7 @@
   .start, .correctAnswer, .questions {
       background-color:#a6c4f4;
       color: black;
+      padding: 15px;
   }
 
   button, .start-button, .submit-button {
@@ -94,6 +88,11 @@
     font-size: 16px;
     border-radius: 4px;
     cursor: pointer;
+  }
+
+  .submit-button, .restart {
+      display: block;
+      margin: 10px auto 0 auto;
   }
 
   .questionBox {
@@ -110,4 +109,16 @@
       padding: 15px;
       margin: 20px;
       border-radius: 5px;
+  }
+
+  a {
+      color: #802200;
+      display: inline-block;
+      margin: 2px;
+      padding: 2px;
+  }
+
+  .link:hover {
+      color: #7600a8;
+      cursor: pointer;
   }

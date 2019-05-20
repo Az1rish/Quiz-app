@@ -107,7 +107,7 @@ function showResults() {
     } else if (correctAnswers < 6 && correctAnswers >= 3) {
         $('.questionForm').html(`<div class="correctAnswer results"><h2>Not bad...</h2><p>You got ${correctAnswers} out of 8 questions correct. You know some things, keep doing what your doing and you'll have this stuff down in no time.</p><button class="restart">Try again?</button></div>`);
     } else {
-        $('.questionForm').html(`<div class="correctAnswer results"><h2>Can we talk?</h2><p>You got ${correctAnswers} out of 8 questions correct. Getting a low score on an online quiz isn't the end of the world. I would like to refer you to two websites that have helped me tremendously.</p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">MDN web docs - Javascript</a><br><a href="https://www.codewars.com/">codewars</a><button class="restart">Try again?</button></div>`);
+        $('.questionForm').html(`<div class="correctAnswer results"><h2>Can we talk?</h2><p>You got ${correctAnswers} out of 8 questions correct. Getting a low score on an online quiz isn't the end of the world. I would like to refer you to two websites that are very helpful.</p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" class="link">MDN web docs - Javascript</a><br><a href="https://www.codewars.com/" class="link">codewars</a><button class="restart">Try again?</button></div>`);
     }
 }
 
