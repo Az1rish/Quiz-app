@@ -54,8 +54,8 @@
       display: none;
   }
 
-  input[type=submit]:hover {
-      background-color: #45a049;
+  input:hover {
+      background-color: #F5D76E;
   }
 
   .radio {
@@ -121,4 +121,25 @@
   .link:hover {
       color: #7600a8;
       cursor: pointer;
+  }
+
+  @media screen and (min-width: 750px) {
+    .questionBox {
+        width: 65%;
+        height: 40%;
+        margin: 0 auto;
+    }
+
+    .start-button {
+        display: block;
+        margin: 0 auto;
+    }
+
+    ul {
+        text-align: center;
+    }
+
+    .questionForm {
+        margin: 0 auto;
+    }
   }

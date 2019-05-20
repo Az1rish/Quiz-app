@@ -18,14 +18,14 @@ function formQuestion() {
     const format = `<div class="question${questionNumber} questions">
         <form role="form">
             <p>${QUESTIONS[questionNumber].question}</p>
-            <input type="radio" name="answer" value="${QUESTIONS[questionNumber].answers[0]}" class="radio" required>
-            <span> ${QUESTIONS[questionNumber].answers[0]}</span><br>
-            <input type="radio" name="answer" value="${QUESTIONS[questionNumber].answers[1]}" class="radio" required>
-            <span> ${QUESTIONS[questionNumber].answers[1]}</span><br>
-            <input type="radio" name="answer" value="${QUESTIONS[questionNumber].answers[2]}" class="radio" required>
-            <span> ${QUESTIONS[questionNumber].answers[2]}</span><br>
-            <input type="radio" name="answer" value="${QUESTIONS[questionNumber].answers[3]}" class="radio" required>
-            <span> ${QUESTIONS[questionNumber].answers[3]}</span><br>
+            <label><input type="radio" name="answer" value="${QUESTIONS[questionNumber].answers[0]}" class="radio" required>
+             ${QUESTIONS[questionNumber].answers[0]}</label><br>
+             <label><input type="radio" name="answer" value="${QUESTIONS[questionNumber].answers[1]}" class="radio" required>
+             ${QUESTIONS[questionNumber].answers[1]}</label><br>
+             <label><input type="radio" name="answer" value="${QUESTIONS[questionNumber].answers[2]}" class="radio" required>
+             ${QUESTIONS[questionNumber].answers[2]}</label><br>
+             <label><input type="radio" name="answer" value="${QUESTIONS[questionNumber].answers[3]}" class="radio" required>
+             ${QUESTIONS[questionNumber].answers[3]}</label><br>
             <input type="submit" role="button" class="submit-button" value="Submit Answer">
         </form>
     </div>`
