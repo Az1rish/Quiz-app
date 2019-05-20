@@ -35,7 +35,6 @@ function formQuestion() {
     } else {
         showResults();
         restartQuiz();
-        //$('.questionNumber').text(8);
         $('.counts').css('display','none');
     }
 }
