@@ -55,7 +55,7 @@ const QUESTIONS = [
         definition: "The every() method tests whether all elements in the array pass the test implemented by the provided function. It returns a Boolean value."
     },
     {
-        question:"What would I use if I wanted a new array that's consists of a portion of an existing array?",
+        question:"What would I use if I wanted a new array that consists of a portion of an existing array?",
         answers: [
             "slice()",
             "splice()",
