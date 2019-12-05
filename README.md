@@ -1,1 +1,1 @@
-A quiz applicatoin built using HTML, CSS & jQuery
+A quiz application built using HTML, CSS & jQuery
